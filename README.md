@@ -5,8 +5,6 @@ The whole thing is designed to connect to an API I created myself, with the aim 
 
 Future versions? Absolutely possible, to improve the performance of the bot’s main code, as well as the API’s capabilities, and to refine the sending and receiving of requests.
 
-Translated with DeepL.com (free version)
-
 # 2.Key Tools
 A standard approach, where the architecture simply involves using discord.py (with discord.txt), which will allow the client to connect (all admin and moderation settings are configured in the Discord Dev Portal)
 
@@ -15,5 +13,3 @@ Next, a connection is established to the API (using the FastAPI framework, the U
 The API then queries the Ollama model (downloadable online and used via the documentation at https://ollama.readthedocs.io/)
 
 The CPU must be powerful enough to support the real-time processing of the selected model, as well as the response time and potential hosting requirements
-
-Translated with DeepL.com (free version)
