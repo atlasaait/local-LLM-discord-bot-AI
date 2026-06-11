@@ -13,3 +13,5 @@ Next, a connection is established to the API (using the FastAPI framework, the U
 The API then queries the Ollama model (downloadable online and used via the documentation at https://ollama.readthedocs.io/)
 
 The CPU must be powerful enough to support the real-time processing of the selected model, as well as the response time and potential hosting requirements
+
+Don't forget to create an .env and get your discord bot token into this file!
